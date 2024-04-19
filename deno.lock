@@ -1,0 +1,44 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "jsr:@std/assert@^0.223.0": "jsr:@std/assert@0.223.0",
+      "jsr:@std/fs": "jsr:@std/fs@0.223.0",
+      "jsr:@std/path@^0.223.0": "jsr:@std/path@0.223.0",
+      "npm:@commander-js/extra-typings": "npm:@commander-js/extra-typings@12.0.1_commander@12.0.0",
+      "npm:chalk": "npm:chalk@5.3.0"
+    },
+    "jsr": {
+      "@std/assert@0.223.0": {
+        "integrity": "eb8d6d879d76e1cc431205bd346ed4d88dc051c6366365b1af47034b0670be24"
+      },
+      "@std/fs@0.223.0": {
+        "integrity": "3b4b0550b2c524cbaaa5a9170c90e96cbb7354e837ad1bdaf15fc9df1ae9c31c",
+        "dependencies": [
+          "jsr:@std/assert@^0.223.0",
+          "jsr:@std/path@^0.223.0"
+        ]
+      },
+      "@std/path@0.223.0": {
+        "integrity": "593963402d7e6597f5a6e620931661053572c982fc014000459edc1f93cc3989"
+      }
+    },
+    "npm": {
+      "@commander-js/extra-typings@12.0.1_commander@12.0.0": {
+        "integrity": "sha512-OvkMobb1eMqOCuJdbuSin/KJkkZr7n24/UNV+Lcz/0Dhepf3r2p9PaGwpRpAWej7A+gQnny4h8mGhpFl4giKkg==",
+        "dependencies": {
+          "commander": "commander@12.0.0"
+        }
+      },
+      "chalk@5.3.0": {
+        "integrity": "sha512-dLitG79d+GV1Nb/VYcCDFivJeK1hiukt9QjRNVOsUtTy1rR1YJsmpGGTZ3qJos+uw7WmWF4wUwBd9jxjocFC2w==",
+        "dependencies": {}
+      },
+      "commander@12.0.0": {
+        "integrity": "sha512-MwVNWlYjDTtOjX5PiD7o5pK0UrFU/OYgcJfjjK4RaHZETNtjJqrZa9Y9ds88+A+f+d5lv+561eZ+yCKoS3gbAA==",
+        "dependencies": {}
+      }
+    }
+  },
+  "remote": {}
+}
