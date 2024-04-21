@@ -58,7 +58,7 @@ async function validateDirExistsSync(path: string) {
 
 const { program } = Commander;
 program
-  .name("orchestrator-tools-cli")
+  .name("orchestrator-tools")
   .description(
     "Builds the Orchestrator FE+BE plugins and installs them in backstage-showcase",
   )

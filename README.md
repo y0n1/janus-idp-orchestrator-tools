@@ -21,7 +21,7 @@ Builds the orchestrator packages in backstage-plugins and copies the artifacts i
 3. Execute it:
     ```sh
     $ orchestrator-tools --help
-    Usage: orchestrator-tools-cli [options] <showcase-repo-dir> <plugins-repo-dir>
+    Usage: orchestrator-tools [options] <showcase-repo-dir> <plugins-repo-dir>
 
     Builds the Orchestrator FE+BE plugins and installs them in backstage-showcase
 
