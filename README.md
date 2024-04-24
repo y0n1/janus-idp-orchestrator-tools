@@ -7,18 +7,14 @@ Builds the orchestrator packages in backstage-plugins and copies the artifacts i
 2. Clone this repo
 3. Install the script:  
     ```sh
-    deno install \
+    deno install -g \
         --allow-write \
         --allow-read \
         --allow-run=yarn  \
         --allow-env=FORCE_COLOR,TF_BUILD,TERM,CI,TEAMCITY_VERSION,COLORTERM \
         cli/orchestrator-tools.ts
     ```
-4. Cache dependencies, so they don't have to be fetched on every invocation:
-    ```sh
-    deno cache --lock=deno.lock cli/orchestrator
-    ```
-3. Execute it:
+4. Execute it:
     ```sh
     $ orchestrator-tools --help
     Usage: orchestrator-tools [options] <showcase-repo-dir> <plugins-repo-dir>

@@ -1,6 +1,6 @@
-import chalk from "npm:chalk";
-import * as Commander from "npm:@commander-js/extra-typings";
-import { copy, exists } from "jsr:@std/fs";
+import chalk from "chalk";
+import * as Commander from "@commander-js/extra-typings";
+import { copy, exists } from "@std/fs";
 import { GenericError } from "../models/GenericError.ts";
 
 type ExecuteTaskAsyncResult =
